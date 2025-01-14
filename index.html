@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Keyboard &hearts;</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="css/output.css">
+</head>
+
+<body>
+    <main class="w-full h-screen bg-main select-none">
+        <section class="w-full h-full 2xl:container mx-auto flex justify-center items-center">
+            <div class="bg-[#9cd1ea] w-[60%] h-auto rounded-md shadow-lg border-b-4 border-[#009de4] p-5">
+                <!-- first line -->
+                <div class="flex justify-between w-full">
+                    <div
+                        class="langElement cursor-pointer flex justify-center items-center text-xl font-bold w-[9%] h-[36px] bg-counter shadow-counter text-white rounded-sm">
+                        En
+                    </div>
+                    <div
+                        class="screen text-end flex justify-end px-2 text-xl font-bold overflow-hidden items-center w-[89%] h-[40px] bg-counter shadow-screen text-white rounded-sm tracking-[1px]">
+                    </div>
+                </div>
+                <!-- second line -->
+                <div class="flex justify-between w-full my-4">
+                    <span class="key">ESC</span>
+                    <div class="flex gap-2">
+                        <span class="key">F1</span>
+                        <span class="key">F2</span>
+                        <span class="key">F3</span>
+                        <span class="key">F4</span>
+                    </div>
+                    <div class="*:key flex gap-2">
+                        <span class="key">F5</span>
+                        <span class="key">F6</span>
+                        <span class="key">F7</span>
+                        <span class="key">F8</span>
+                    </div>
+                    <div class="*:key flex gap-2">
+                        <span class="key">F9</span>
+                        <span class="key">F10</span>
+                        <span class="key">F11</span>
+                        <span class="key">F12</span>
+                    </div>
+                </div>
+                <!-- third line -->
+                <div class="flex justify-between w-full mb-4">
+                    <span data-en="\" class="key">\</span>
+                    <span data-en="1" data-fa="۱" class="key">1</span>
+                    <span data-en="2" data-fa="۲" class="key">2</span>
+                    <span data-en="3" data-fa="۳" class="key">3</span>
+                    <span data-en="4" data-fa="۴" class="key">4</span>
+                    <span data-en="5" data-fa="۵" class="key">5</span>
+                    <span data-en="6" data-fa="۶" class="key">6</span>
+                    <span data-en="7" data-fa="۷" class="key">7</span>
+                    <span data-en="8" data-fa="۸" class="key">8</span>
+                    <span data-en="9" data-fa="۹" class="key">9</span>
+                    <span data-en="0" data-fa="۰" class="key">0</span>
+                    <span data-en="?" class="key">?</span>
+                    <span data-en="^" class="key">^</span>
+                    <span class="key bg-[#f1ff92] w-[110px] shadow-yellow">clear</span>
+                </div>
+                <!-- fourth line -->
+                <div class="flex justify-between w-full mb-4">
+                    <span class="key bg-[#f1ff92] w-[70px] shadow-yellow">tab</span>
+                    <span data-fa="ض" data-en="q" class="key">q</span>
+                    <span data-fa="ص" data-en="w" class="key">w</span>
+                    <span data-fa="ث" data-en="e" class="key">e</span>
+                    <span data-fa="ق" data-en="r" class="key">r</span>
+                    <span data-fa="ف" data-en="t" class="key">t</span>
+                    <span data-fa="غ" data-en="y" class="key">y</span>
+                    <span data-fa="ع" data-en="u" class="key">u</span>
+                    <span data-fa="ه" data-en="i" class="key">i</span>
+                    <span data-fa="خ" data-en="o" class="key">o</span>
+                    <span data-fa="ح" data-en="p" class="key">p</span>
+                    <span data-fa="ج" class="key">"</span>
+                    <span data-fa="د" class="key">*</span>
+                    <span class="key">[</span>
+                    <span class="key">]</span>
+                </div>
+                <!-- fifth line -->
+                <div class="flex justify-between w-full mb-4">
+                    <span class="key bg-[#f1ff92] w-[90px] shadow-yellow relative">capsLock
+                        <span class="flex absolute top-[2px] right-[2px] w-2 h-2 rounded-full bg-yellow-400"></span>
+                    </span>
+                    <span data-fa="ش" data-en="a" class="key">a</span>
+                    <span data-fa="س" data-en="s" class="key">s</span>
+                    <span data-fa="ی" data-en="d" class="key">d</span>
+                    <span data-fa="ب" data-en="f" class="key">f</span>
+                    <span data-fa="ل" data-en="g" class="key">g</span>
+                    <span data-fa="ا" data-en="h" class="key">h</span>
+                    <span data-fa="ت" data-en="j" class="key">j</span>
+                    <span data-fa="ن" data-en="k" class="key">k</span>
+                    <span data-fa="م" data-en="l" class="key">l</span>
+                    <span class="key">'</span>
+                    <span class="key">;</span>
+                    <span class="key">:</span>
+                    <span class="key bg-[#f1ff92] w-[70px] shadow-yellow">enter</span>
+                </div>
+                <!-- sixth line -->
+                <div class="flex justify-between w-full mb-4">
+                    <span class="key bg-[#f1ff92] w-[70px] shadow-yellow">shift</span>
+                    <span data-fa="پ" data-en="z" class="key">z</span>
+                    <span data-fa="گ" data-en="x" class="key">x</span>
+                    <span data-fa="و" data-en="v" class="key">v</span>
+                    <span data-fa="ر" data-en="c" class="key">c</span>
+                    <span data-fa="چ" data-en="b" class="key">b</span>
+                    <span data-fa="ژ" data-en="n" class="key">n</span>
+                    <span data-fa="ز" data-en="m" class="key">m</span>
+                    <span class="key"><</span>
+                    <span class="key">></span>
+                    <span class="key">.</span>
+                    <span class="key">-</span>
+                    <span class="key">_</span>
+                    <span class="key bg-[#f1ff92] w-[90px] shadow-yellow">shift</span>
+                </div>
+                <!-- last line -->
+                <div class="flex justify-between w-full">
+                    <span class="key bg-[#f1ff92] w-[60px] shadow-yellow">ctrl</span>
+                    <span class="key bg-[#f1ff92] w-[60px] shadow-yellow">start</span>
+                    <span class="key bg-[#f1ff92] w-[60px] shadow-yellow">alt</span>
+                    <span class="key bg-[#f1ff92] w-[350px] shadow-yellow">______</span>
+                    <span class="key bg-[#f1ff92] w-[60px] shadow-yellow">alt</span>
+                    <span class="key bg-[#f1ff92] w-[60px] shadow-yellow">start</span>
+                    <span class="key bg-[#f1ff92] w-[60px] shadow-yellow">menu</span>
+                    <span class="key bg-[#f1ff92] w-[60px] shadow-yellow">ctrl</span>
+                </div>
+            </div>
+        </section>
+
+        <!-- info -->
+        <div
+            class="w-44 h-[55px] hover:h-[185px] overflow-hidden transition-all duration-300 absolute top-0 right-4 p-5 text-center *:italic">
+            <strong class="text-xl text-orange-950 underline underline-offset-[6px]">Reza Geshani</strong>
+            <a class="text-slate-950 font-bold my-2 flex justify-center hover:text-orange-800"
+                href="https://www.linkedin.com/in/reza-geshani-web">Linkedin</a>
+            <a class="text-slate-950 font-bold my-2 flex justify-center hover:text-orange-800"
+                href="https://github.com/RezaGeshaniWeb/">Github</a>
+            <a class="text-slate-950 font-bold my-2 flex justify-center hover:text-orange-800"
+                href="https://www.instagram.com/rezageshani_web">Instagram</a>
+            <a class="text-slate-950 font-bold my-2 flex justify-center hover:text-orange-800"
+                href="mailto:rezageshaniweb@gmail.com">Email</a>
+        </div>
+    </main>
+
+    <script src="js/script.js"></script>
+</body>
+
+</html>

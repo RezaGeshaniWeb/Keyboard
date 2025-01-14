@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+    .key {
+        @apply hover:bg-blue-700 hover:text-white hover:shadow-blue w-[50px] h-[40px] bg-white shadow-counter text-[#888] text-center rounded-sm leading-9 transition-all duration-300 cursor-pointer font-bold;
+    }
+
+    .scale-85 {
+        @apply scale-[.85]
+    }
+}
